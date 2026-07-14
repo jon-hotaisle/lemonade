@@ -684,7 +684,7 @@ elseif(UNIX)
     list(APPEND SOURCES_CORE src/cpp/server/platform/metrics_linux.cpp)
     list(APPEND SOURCES_CORE src/cpp/server/platform/suspend_linux.cpp)
     list(APPEND SOURCES_CORE src/cpp/server/utils/platform/archive_unix.cpp)
-    list(APPEND SOURCES_CORE src/cpp/server/utils/platform/process_unix.cpp)
+    list(APPEND SOURCES_CORE src/cpp/server/utils/platform/process_linux.cpp)
     list(APPEND SOURCES_CORE src/cpp/server/utils/platform/network_unix.cpp)
 endif()
 
